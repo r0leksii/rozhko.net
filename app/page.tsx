@@ -3,6 +3,8 @@ import LinkItem from '@/components/link-item'
 import Section from '@/components/section'
 import { userProfile } from '@/lib/data'
 
+export const runtime = 'edge'
+
 export default function Home() {
   return (
     <>
