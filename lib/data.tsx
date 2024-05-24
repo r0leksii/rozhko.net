@@ -30,7 +30,7 @@ type UserProfile = {
 export const userProfile: UserProfile = {
   description:
     'As a Front-End Developer, I am enthusiastic about crafting user-centric, responsive, and visually appealing interfaces. Thrive in collaborative environments, contributing to project success through clear communication and shared goals.',
-  jobTitle: 'Front-end Web Developer',
+  jobTitle: 'Front-End Web Developer',
   links: {
     email: {
       href: 'mailto:aleks@rozhko.net',
@@ -40,12 +40,12 @@ export const userProfile: UserProfile = {
     gitHub: {
       href: 'https://github.com/r0leksii',
       icon: <GitHubLogoIcon />,
-      label: 'GitHub',
+      label: 'github.com/r0leksii',
     },
     linkedIn: {
       href: 'https://www.linkedin.com/in/rozhkoaleks/',
       icon: <LinkedInLogoIcon />,
-      label: 'LinkedIn',
+      label: 'linkedin.com/in/rozhkoaleks',
     },
     resume: {
       href: '/resume.pdf',

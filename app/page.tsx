@@ -29,13 +29,13 @@ export default function Home() {
                 {userProfile.links.email.icon}
                 {userProfile.links.email.label}
               </LinkItem>
-              <LinkItem className={'group'} href={userProfile.links.resume.href}>
-                <span className={'font-bold'}>{userProfile.links.resume.label}</span>
-                <span className={'transition duration-300 ease-in-out group-hover:translate-x-1'}>
-                  {userProfile.links.resume.icon}
-                </span>
-              </LinkItem>
             </div>
+            <LinkItem className={'group'} href={userProfile.links.resume.href}>
+              <span className={'font-bold'}>{userProfile.links.resume.label}</span>
+              <span className={'transition duration-300 ease-in-out group-hover:translate-x-1'}>
+                {userProfile.links.resume.icon}
+              </span>
+            </LinkItem>
           </Container>
         </Section>
       </main>
