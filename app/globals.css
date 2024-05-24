@@ -1,7 +1,9 @@
+/* stylelint-disable */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* stylelint-enable */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,17 +19,30 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'segoe ui',
+    'helvetica neue', helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply ~text-[2.67rem]/[4.735rem];
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply ~text-[1.367rem]/[1.999rem];
+    @apply font-bold;
+  }
+
+  a {
+    @apply underline;
+    @apply decoration-transparent;
+    @apply transition duration-300 ease-in-out;
   }
 }
