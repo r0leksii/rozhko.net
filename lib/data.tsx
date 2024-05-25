@@ -29,7 +29,7 @@ type UserProfile = {
 
 export const userProfile: UserProfile = {
   description:
-    'With over a year of experience, specialized in user-centric, responsive interfaces, SSR, and SPAs using React and Next.js. Delivered projects that boosted user engagement by 25% and reduced page load times by 15%. An entrepreneurial background ensures disciplined and efficient task completion. Technical expertise and business acumen make an asset to any team. Currently expanding knowledge in front-end development.',
+    'With over a year of experience, specialized in user-centric, responsive interfaces, SSR, and SPAs using React and Next.js. Delivered projects that boosted user engagement by 25% and reduced page load times by 15%. An entrepreneurial background ensures disciplined and efficient task completion. Technical expertise and business acumen make an asset to any team. Currently expanding knowledge in full-stack development.',
   jobTitle: 'Front-End Web Developer',
   links: {
     email: {
