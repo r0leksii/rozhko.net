@@ -29,7 +29,7 @@ type UserProfile = {
 
 export const userProfile: UserProfile = {
   description:
-    'As a Front-End Developer, I am enthusiastic about crafting user-centric, responsive, and visually appealing interfaces. Thrive in collaborative environments, contributing to project success through clear communication and shared goals.',
+    'With over a two years of experience, I excel in creating user-centric, responsive interfaces, SSR, and SPAs. My entrepreneurial background has honed my skills in decision-making, discipline, and responsibility, ensuring efficient task completion. I have successfully delivered projects that boosted user engagement by 25% and reduced page load times by 15%. I bring a unique blend of technical expertise and business acumen, and my commitment to continuous learning makes me an asset to any team.',
   jobTitle: 'Front-End Web Developer',
   links: {
     email: {
