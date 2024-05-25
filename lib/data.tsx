@@ -33,7 +33,7 @@ export const userProfile: UserProfile = {
   jobTitle: 'Front-End Web Developer',
   links: {
     email: {
-      href: 'mailto:aleks@rozhko.net',
+      href: 'mailto:rozhkoaleks@gmail.com',
       icon: <EnvelopeClosedIcon />,
       label: 'aleks@rozhko.net',
     },
