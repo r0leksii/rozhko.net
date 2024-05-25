@@ -35,7 +35,7 @@ export const userProfile: UserProfile = {
     email: {
       href: 'mailto:rozhkoaleks@gmail.com',
       icon: <EnvelopeClosedIcon />,
-      label: 'aleks@rozhko.net',
+      label: 'rozhkoaleks@gmail.com',
     },
     gitHub: {
       href: 'https://github.com/r0leksii',
