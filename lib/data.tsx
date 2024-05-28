@@ -48,7 +48,7 @@ export const userProfile: UserProfile = {
       label: 'linkedin.com/in/rozhkoaleks',
     },
     resume: {
-      href: '/cv-oleksii-rozhko.pdf',
+      href: '/rozhko-cv.pdf',
       icon: <ArrowRightIcon />,
       label: 'View full resume',
     },
